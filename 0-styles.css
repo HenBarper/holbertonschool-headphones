@@ -7,10 +7,23 @@ body {
     /* background-color: red; */
 }
 
+h1, p {
+    max-width: 1000px;
+    margin: auto auto;
+}
+
 button {
     border-radius: 90px;
     background-color: #FF6565;
     color: white;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+a:hover {
+    color: #FF6565;
 }
 
 /* Header */
@@ -25,6 +38,29 @@ button {
     color: white;
 }
 
+header {
+    width: 80%;
+    margin: auto auto;
+    display: flex;
+}
+
+.header-logo {
+    height: 35px;
+}
+.header-logo-div {
+    flex: 1;
+    text-align: left;
+}
+.header-links-div {
+    flex: 1;
+    text-align: right;
+}
+.header-links-div a {
+    color: white;
+    text-decoration: none;
+    margin-left: 3rem;
+}
+
 /* WHAT WE DO */
 .what-we-do {
 }
@@ -36,6 +72,10 @@ button {
 
 .icon {
     flex: 1;
+}
+
+.ico {
+    height: 65px;
 }
 
 /* OUR RESULTS */
