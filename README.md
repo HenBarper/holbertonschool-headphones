@@ -2,6 +2,10 @@
 
 Welcome to the Web Page Implementation project! In this project, your goal is to create a fully functional web page from scratch, utilizing your knowledge of HTML, CSS, accessibility, and responsive design. There are no strict instructions on how to implement it, giving you the freedom to showcase your creativity and skills.
 
+## Links
+
+1. **Figma Page:** [Go to Figma](https://www.figma.com/file/FfnVADRC9xgI3yiZliTBYZ/Holberton-School---Headphone-company?type=design&node-id=0-1&mode=design&t=SJpdFPeEIcaiSM9P-0)
+
 ## Project Objective
 
 The main objective of this project is to replicate a designer file and create a web page that mirrors the provided design. You won't be using any libraries for this project; instead, you'll leverage your understanding of HTML/CSS to build a responsive and accessible web page.
@@ -23,9 +27,3 @@ The main objective of this project is to replicate a designer file and create a 
 ```bash
 git clone https://github.com/HenBarper/holbertonschool-headphones.git
 cd web-page-project
-
-## Links
-
-1. **Figma Page:** [Go to figma](https://www.figma.com/file/FfnVADRC9xgI3yiZliTBYZ/Holberton-School---Headphone-company?type=design&node-id=0-1&mode=design&t=SJpdFPeEIcaiSM9P-0)
-
-
