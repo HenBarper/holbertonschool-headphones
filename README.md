@@ -23,3 +23,9 @@ The main objective of this project is to replicate a designer file and create a 
 ```bash
 git clone https://github.com/HenBarper/holbertonschool-headphones.git
 cd web-page-project
+
+## Links
+
+1. **Figma Page:** [Go to figma](https://www.figma.com/file/FfnVADRC9xgI3yiZliTBYZ/Holberton-School---Headphone-company?type=design&node-id=0-1&mode=design&t=SJpdFPeEIcaiSM9P-0)
+
+
