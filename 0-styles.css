@@ -1,0 +1,91 @@
+/* GENERAL STYLES */
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    /* background-color: red; */
+}
+
+button {
+    border-radius: 90px;
+    background-color: #FF6565;
+    color: white;
+}
+
+/* Header */
+.header {
+    height: 250px;
+
+    background-image: url('images/headphones_hero_1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    color: white;
+}
+
+/* WHAT WE DO */
+.what-we-do {
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon {
+    flex: 1;
+}
+
+/* OUR RESULTS */
+.our-results {
+    color: white;
+    background-image: url('images/headphones_hero_2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.pentagons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.pentagon {
+    background-image: url('images/pentagone.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* CONTACT US */
+.contact-us {
+    height: 250px;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #979797; /* Add bottom border */
+}
+
+/* FOOTER */
+footer {
+    height: 250px;
+    color: white;
+    background-color: #071629;
+}
+
+footer p {
+    opacity: 35%;
+}
+
+/* Media query for tablets */
+@media only screen and (min-width: 480px) and (max-width: 1024px) {
+    /* Styles for tablets go here */
+}
+
+/* Media query for phones */
+@media only screen and (max-width: 480px) {
+    /* Styles for phones go here */
+}
