@@ -105,6 +105,7 @@ header {
 .wwd-title {
     margin-top: 6rem;
     margin-bottom: 3rem;
+    font-size: 32px;
 }
 
 .big-text-block-2 {
@@ -146,16 +147,36 @@ header {
     background-position: center;
 }
 
+.or-title {
+    padding-top: 6rem;
+    margin-bottom: 3rem;
+    font-size: 32px;
+}
+
 .pentagons {
+    width: 70%;
     display: flex;
     justify-content: space-around;
+    margin: 3rem auto auto;
+    padding-bottom: 5rem;
 }
 
 .pentagon {
     background-image: url('images/pentagone.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
+
+    max-width: 20%;
+    padding: 3rem;
+}
+.pentagon h1 {
+    padding-top: 1rem;
+    font-size: 46px;
+}
+.pentagon p {
+    font-size: 14px;
+    width: 120px;
 }
 
 /* CONTACT US */
