@@ -1,9 +1,16 @@
 /* GENERAL STYLES */
 
+@font-face {
+    font-family: 'SSP';
+    src: url('fonts/SourceSansPro-Black.otf') format('opentype');
+    /* Add additional formats here if needed */
+}
+
 body {
     margin: 0;
     padding: 0;
     text-align: center;
+    font-family: 'SSP', sans-serif;
     /* background-color: red; */
 }
 
@@ -16,20 +23,30 @@ button {
     border-radius: 90px;
     background-color: #FF6565;
     color: white;
+    margin-top: 2rem;
+    padding: 0.5rem 1rem;
 }
 
 button:hover {
     opacity: 0.9;
 }
 
+.button-text {
+    font-size: 14px;
+}
+
 a:hover {
     color: #FF6565;
 }
 
+.big-text-block {
+    max-width: 637px;
+    margin-top: 3rem;
+    padding-bottom: 5rem;
+}
+
 /* Header */
 .header {
-    height: 250px;
-
     background-image: url('images/headphones_hero_1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -39,8 +56,9 @@ a:hover {
 }
 
 header {
-    width: 80%;
+    width: 75%;
     margin: auto auto;
+    padding-top: 3rem;
     display: flex;
 }
 
@@ -59,6 +77,14 @@ header {
     color: white;
     text-decoration: none;
     margin-left: 3rem;
+}
+
+.main-title {
+    font-size: 32px;
+    padding-top: 10rem;
+}
+.main-sub-title {
+    margin-top: 0;
 }
 
 /* WHAT WE DO */
