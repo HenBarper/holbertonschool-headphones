@@ -1,0 +1,22 @@
+/* GENERAL STYLES */
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1, p {
+    max-width: 1000px;
+    margin: auto auto;
+}
+
+/* Media query for tablets */
+@media only screen and (min-width: 480px) and (max-width: 1024px) {
+    /* Styles for tablets go here */
+}
+
+/* Media query for phones */
+@media only screen and (max-width: 480px) {
+    /* Styles for phones go here */
+}
