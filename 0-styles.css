@@ -72,6 +72,13 @@ header {
     display: flex;
 }
 
+#menu-toggle, #toggle-label{
+    display: none;
+    position: absolute;
+    top: 65px;
+    left: 40px;
+}
+
 .header-logo {
     height: 35px;
 }
@@ -293,15 +300,23 @@ footer p {
         text-align: center;
     }
     .header-logo-div {
-        /* flex: 0 0 calc(100% - 10px); */
         text-align: center;
     }
     .header-links-div {
-        /* flex: 0 0 calc(100% - 10px); */
         text-align: center;
         display: flex;
         flex-direction: column;
-        /* white-space: wrap */
+    }
+    #toggle-label {
+        display: block;
+    }
+    #toggle-content {
+        display: none;
+    }
+    #menu-toggle:checked + label + #toggle-content {
+        display: flex !important;
+        text-align: center !important;
+        flex-direction: column !important;
     }
     .header-links-div a {
         margin: auto;
