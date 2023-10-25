@@ -82,6 +82,10 @@ header {
 .header-links-div {
     flex: 1;
     text-align: right;
+    white-space: nowrap;
+    font-size: 12px;
+    line-height: 35px;
+    font-family: 'SSP2', sans-serif;
 }
 .header-links-div a {
     color: white;
@@ -284,6 +288,24 @@ footer p {
 
 /* Media query for phones */
 @media only screen and (max-width: 480px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+    .header-logo-div {
+        /* flex: 0 0 calc(100% - 10px); */
+        text-align: center;
+    }
+    .header-links-div {
+        /* flex: 0 0 calc(100% - 10px); */
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        /* white-space: wrap */
+    }
+    .header-links-div a {
+        margin: auto;
+    }
     .icon {
         flex: 0 0 calc(100% - 10px);
     }
