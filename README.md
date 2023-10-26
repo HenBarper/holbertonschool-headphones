@@ -26,4 +26,4 @@ The main objective of this project is to replicate a designer file and create a 
 
 ```bash
 git clone https://github.com/HenBarper/holbertonschool-headphones.git
-cd web-page-project
+cd holbertonschool-headphones
